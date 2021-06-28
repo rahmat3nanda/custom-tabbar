@@ -78,7 +78,6 @@ class __TabbarWidgetState extends State<_TabbarWidget> {
       alignment: Alignment.center,
       child: Row(
         children: List.generate(widget.children.length, (i) {
-          print("$i ${_getBorderRadius(i)}");
           return Expanded(
             flex: 1,
             child: InkWell(
